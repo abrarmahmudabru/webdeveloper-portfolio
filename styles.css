@@ -1,0 +1,53 @@
+.nave{
+    color: var(--dark-01, #181818);
+    font-family: Open Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    /* line-height: normal; */
+}
+.are{
+    color: #FD6E0A;
+    font-family: Open Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    /* line-height: normal; */
+}
+nav{
+    display: flex;
+    align-items: center;
+    /* dui pashe newar jonno */
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    
+}
+nav>ul>li>a{
+    margin-right: 50px;
+    text-decoration: none;
+    color: var(--dark-02, #474747);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#baton{
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    width: 150px;
+    height: 64px;
+    flex-shrink: 0;
+    /* text */
+    color: var(--white-color, #FFF);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    }
