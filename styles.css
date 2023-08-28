@@ -1,8 +1,8 @@
 .nave{
-    color: var(--dark-01, #181818);
+    color: #181818;
     font-family: Open Sans;
     font-size: 45px;
-    font-style: normal;
+    /* font-style: normal; */
     font-weight: 800;
     /* line-height: normal; */
 }
@@ -14,11 +14,15 @@
     font-weight: 800;
     /* line-height: normal; */
 }
+.naved{
+    font-size: 45px;
+}
 nav{
     display: flex;
     align-items: center;
     /* dui pashe newar jonno */
     justify-content: space-between;
+    margin: 0px 200px;
 }
 nav ul{
     display: flex;
@@ -36,7 +40,7 @@ nav>ul>li>a{
     font-weight: 400;
     line-height: normal;
 }
-#baton{
+.baton{
     border-radius: 5px;
     background: #FD6E0A;
     border: 0;
@@ -50,4 +54,21 @@ nav>ul>li>a{
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    }
+}
+
+/* header related style */
+.headers{
+    background: #FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+}
+/* #pp{
+    width: 1000px;
+    height: 676px;
+    flex-shrink: 0;
+} */
+.banner .pp{
+    width: 500px;
+}
